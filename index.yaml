@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  keycloak-operator:
+  - apiVersion: v2
+    appVersion: 20.0.2
+    created: "2023-03-22T14:11:56.788497+09:00"
+    description: A Helm chart for Keycloak Operator
+    digest: efbf661979eeae7313d3754a91ec410c6f9d0dc22ea91ec3c90876b687d45979
+    icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
+    name: keycloak-operator
+    type: application
+    urls:
+    - keycloak-operator-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-03-22T14:11:56.786774+09:00"
