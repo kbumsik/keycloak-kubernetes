@@ -1,0 +1,31 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 20.0.2
+description: Community Keycloak Helm Chart for Keycloak Operator based on the official
+  manifests
+icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
+name: keycloak-operator
+type: application
+version: 0.0.2
+
+...
+files:
+  keycloak-operator-0.0.2.tgz: sha256:cd197bb962f5eea055cf96bb8e8241a251dbc279a5747fdf2ce1bd67550bd017
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJkGp+wCRBs7HxHFLQLHgAANlYQAE4G6Iwoa3AMVO9Y98ilxLZS
+2b/q3VzOdAj2ZwAP/uSGXuwwVK0sycVl9Zqd3MGCU2PI1E4DCTcZVXkrOZQraFCP
+SSDmK12cg5GwgmJMrvg62rTW9vYC9bF5V7HmNYXXBL6YBQP8vAArFw/kgSAFIX7F
+2Zblx8DIB0QH7ZFYsrGEHZs3tVVTZoKeEWoZ6YX7q/24vvrTpdjhtY6TnhhzjGzV
+593UuS19J5xU5i1207SslLMFTdcSU62BLK0LzchQNkiW9Do5wFgUPmShTTclTPXp
+yV/RcFJ4g8qoqSFfcNlIWdzvALfj99LadDcJIoRQHtozW+oreFfeqcaBo6lRPcqY
+9SeTvoLoJvskeQXKCegtgchQs2J1yT4kzM6oPuZ9uockapg5FfY3ktS+ZWQTjAql
+kratztn2iQP5JRaQuugxExom+gUnZOwbeKoipFUqBiZDDvbLoPKb01OG8sj78ysM
+tC+geVl4apUrEnAsmOxs4fKVCC2DtzGxIK8XCvUd3oDIHARoJ3g0+pGbHIHWu4G1
+/uOO+wOp7/qvNp8aCvf0+5/otpygUoSESqIgBDYL1U6oCTYqOWajBI1tBLPdy/o3
++SeedQDfuvBimbkw/8Vmwbcq8PRunbaRqK36dvBGOpNqyj36gsYu62xQXvNk4m+0
+RHjT9AVmueUGX5bE+BXz
+=WCAN
+-----END PGP SIGNATURE-----
