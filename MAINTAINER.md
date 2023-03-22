@@ -9,7 +9,7 @@
 The Helm charts are published to GitHub Pages. To package and publish a new version of the Helm chart, run the following commands:
 
 ```bash
-helm package charts/keycloak-operator
+helm package --sign --key 'Bumsik Kim' --keyring ~/.gnupg/secring.gpg charts/keycloak-operator
 helm repo index ./
 git checkout gh-pages
 git add .
@@ -17,3 +17,7 @@ git commit -m "Release keycloak-operator-x.x.x"
 git push
 git checkout main
 ```
+
+References:
+
+- https://helm.sh/docs/topics/provenance/
