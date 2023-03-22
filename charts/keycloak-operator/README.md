@@ -32,3 +32,24 @@ helm repo add keycloak-operator https://kbumsik.io/keycloak-kubernetes/
 ```bash
 helm install my-keycloak-operator --namespace my-keycloak keycloak-operator/keycloak-operator
 ```
+
+## Troubleshooting
+
+- Q. keyclokk intance keeps CrashLoopBackOff state
+- A. Maybe start keycloak image without being optimized mode
+
+```diff
+apiVersion: k8s.keycloak.org/v2alpha1
+kind: Keycloak
+metadata:
+  name: example-keycloak
+spec:
+  unsupported:
+    podTemplate:
+      spec:
+        containers:
+          - name: keycloak
+            args:
+              - start
+-              # - --optimized
+```

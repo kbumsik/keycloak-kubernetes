@@ -66,7 +66,7 @@ roleRef:
   name: keycloak-operator-role
 subjects:
   - kind: ServiceAccount
-    name: keycloak-operator
+    name: {{ include "keycloak-operator.serviceAccountName" . }}
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
@@ -78,7 +78,7 @@ roleRef:
   name: view
 subjects:
   - kind: ServiceAccount
-    name: keycloak-operator
+    name: {{ include "keycloak-operator.serviceAccountName" . }}
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
@@ -90,7 +90,7 @@ roleRef:
   name: keycloakcontroller-cluster-role
 subjects:
   - kind: ServiceAccount
-    name: keycloak-operator
+    name: {{ include "keycloak-operator.serviceAccountName" . }}
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
@@ -102,7 +102,7 @@ roleRef:
   name: keycloakrealmimportcontroller-cluster-role
 subjects:
   - kind: ServiceAccount
-    name: keycloak-operator
+    name: {{ include "keycloak-operator.serviceAccountName" . }}
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
