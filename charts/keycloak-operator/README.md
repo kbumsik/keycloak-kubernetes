@@ -1,4 +1,4 @@
-# Helm Chart for Keycloak Operator
+# Community Helm Chart for Keycloak Operator
 
 This is a Helm chart for the Keycloak Operator. This is based on the official
 [Keycloak Operator](https://github.com/keycloak/keycloak-k8s-resources/tree/main/kubernetes) manifests.

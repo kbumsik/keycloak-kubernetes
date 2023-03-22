@@ -1,6 +1,6 @@
 apiVersion: v2
 name: keycloak-operator
-description: A Helm Chart for Keycloak Operator based on the official manifests
+description: Community Keycloak Helm Chart for Keycloak Operator based on the official manifests
 icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
 
 # A chart can be either an 'application' or a 'library' chart.

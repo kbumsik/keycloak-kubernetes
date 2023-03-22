@@ -10,8 +10,8 @@ The Helm charts are published to GitHub Pages. To package and publish a new vers
 
 ```bash
 helm package --sign --key 'Bumsik Kim' --keyring ~/.gnupg/secring.gpg charts/keycloak-operator
-helm repo index ./
 git checkout gh-pages
+helm repo index ./
 git add .
 git commit -m "Release keycloak-operator-x.x.x"
 git push
