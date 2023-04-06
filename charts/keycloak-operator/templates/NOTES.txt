@@ -1,1 +1,8 @@
-1. Get the application URL by running these commands:
+Now Keycloak Operator is deployed. Now you can create the following resources:
+
+- Keycloak Deployment: https://www.keycloak.org/operator/basic-deployment
+- Keycloak Realm Import: https://www.keycloak.org/operator/realm-import
+
+For further configuration, please visit the official Keycloak Operator Guides:
+
+https://www.keycloak.org/guides#operator

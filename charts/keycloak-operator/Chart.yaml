@@ -2,6 +2,10 @@ apiVersion: v2
 name: keycloak-operator
 description: Community Keycloak Helm Chart for Keycloak Operator based on the official manifests
 icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
+sources:
+  - "https://github.com/kbumsik/keycloak-kubernetes/tree/main/charts/keycloak-operator"
+  - "https://github.com/keycloak/keycloak-k8s-resources"
+  - "https://github.com/keycloak/keycloak"
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -16,7 +20,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.0.3
+version: 0.0.4
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
